@@ -1,0 +1,20 @@
+{
+  "message": "OK",
+  "data": [
+    {
+      "code": "R",
+      "title": "Dnevno radno vrijeme",
+      "check_in_enabled": true
+    },
+    {
+      "code": "B",
+      "title": "Bolovanje",
+      "check_in_enabled": false
+    },
+    {
+      "code": "P",
+      "title": "Sluzbeni put",
+      "check_in_enabled": true
+    }
+  ]
+}

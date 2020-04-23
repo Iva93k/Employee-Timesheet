@@ -1,0 +1,8 @@
+{
+  "message": "Autorization is not allowed!",
+  "data":
+    {
+	  "code": 1,
+	  "description": "Error message details"
+    }
+}

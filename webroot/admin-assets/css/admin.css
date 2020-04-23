@@ -1,0 +1,79 @@
+.mr-1 {
+    margin-right: 10px !important;
+}
+.indexActionButtons a {
+    text-transform: none;
+}
+.error-message{
+    color: #a94442;
+}
+
+.form-group .icheck {
+	margin-top: 35px;
+}
+.checkbox.icheckCheckboxFrame label{
+	padding-left: 0px !important;
+}
+.form-signin input[type="email"] {
+	font-size: 12px;
+}
+
+.fileupload-preview {
+	margin-left:5px;
+}
+
+.fileupload-exists {
+	float: none;
+	margin-left:5px;
+}
+
+.index-preview {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.edit-preview {
+	width: 150px;
+	height: 200px;
+}
+
+.password {
+	padding: 5px;
+}
+
+.top {
+	margin-top: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+.change-icon > .fa + .fa,
+.change-icon:hover > .fa {
+  display: none;
+}
+.change-icon:hover > .fa + .fa {
+  display: inherit;
+}
+
+.green-icon {
+	color: green;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printPage, #printPage * {
+    visibility: visible;
+  }
+  #printPage {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+a[href]:after { content: none !important; }
+	

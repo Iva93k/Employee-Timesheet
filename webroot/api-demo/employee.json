@@ -1,0 +1,15 @@
+{
+  "message": "OK",
+  "data":
+    {
+      "first_name": "Ivana",
+      "last_name": "Kovacevic",
+      "phone_number": "+986655447",
+	  "email": "ivana@gmail.com",
+	  "address": "address",
+	  "city": "Sarajevo",
+	  "job_title": "developer",
+	  "birthdate": "29.10.1993",
+	  "contract_date": "01.10.2019"
+    }
+}

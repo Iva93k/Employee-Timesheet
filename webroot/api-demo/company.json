@@ -1,0 +1,13 @@
+{
+  "message": "OK",
+  "data":
+    {
+      "name": "Company",
+      "contact_person": "John Dee",
+      "phone_number": "+986655447",
+	  "email": "info@company.com",
+	  "address": "Address",
+	  "pdv_number": "00045698778995",
+	  "id_number": "055469879874"
+    }
+}
