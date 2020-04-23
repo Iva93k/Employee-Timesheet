@@ -20,7 +20,7 @@
         </li>
         <li class="pull-right spark-bar-label">
             <span class="bar-label-value"><?= $company['lunch_break']?> min</span>
-            <span><?= __("Lunch brake") ?></span>
+            <span><?= __("Lunch break") ?></span>
         </li>
     </ul>
 </div>
