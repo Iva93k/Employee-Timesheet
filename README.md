@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # CakePHP Application Skeleton
 
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
@@ -46,8 +44,21 @@ automated upgrades, so you have to do any updates manually.
 Read and edit `config/app.php` and setup the `'Datasources'` and any other
 configuration relevant for your application.
 
+To create related tables, run the following Migrations command.
+
+    bin/cake migrations migrate
+
+After configuring the application, you have to use cake following command that will create a default company and default administrator you can use to log in.
+
+    bin/cake install
+
 ## Layout
 
 The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
+
+# Employee timesheet
+
+Records of working hours for each employee with the ability of basic CRUD operations over entities (company, employess, type of working days, work day logs, administrators) on admin panel, and with the ability to download a spreadsheet with a list of workers and record their working days (as excel file).
+Integration of user-facing elements developed by a front-end developer with server side logic is accomplished using REST APIs.
